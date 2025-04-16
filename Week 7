@@ -1,0 +1,55 @@
+1. How do you assess the statistical significance of an insight?
+Statistical significance is determined by hypothesis testing, where we calculate a p-value to compare against a predefined significance level (e.g., 0.05).
+  •	Steps:
+      1.	Define null (H₀) and alternative (Hα) hypotheses.
+      2.	Choose a statistical test (e.g., t-test, chi-square test).
+      3.	Compute the p-value or test statistic.
+      4.	Compare the p-value to the significance level. If p<0.05p < 0.05p<0.05, reject (H₀).
+  •	Additionally, review effect sizes and confidence intervals to ensure practical significance.
+________________________________________
+2. What is the Central Limit Theorem (CLT)? Explain it. Why is it important?
+CLT Statement: The sampling distribution of the sample mean approaches a normal distribution as the sample size increases, regardless of the population's distribution, provided the samples are independent and identically distributed (i.i.d.).
+  •	Importance:
+    o	Allows inference on population parameters using sample statistics.
+    o	Forms the foundation for hypothesis testing and constructing confidence intervals.
+    o	Enables the use of parametric tests even when the population distribution is unknown, as long as the sample size is sufficiently large.
+________________________________________
+3. What is statistical power?
+Statistical power is the probability of correctly rejecting a false null hypothesis (1−β), where β is the Type II error rate.
+  •	High power reduces the likelihood of Type II errors.
+  •	Factors affecting power:
+      1.	Sample size (larger samples increase power).
+      2.	Effect size (larger effects are easier to detect).
+      3.	Significance level (α, higher α increases power but raises Type I error risk).
+________________________________________
+4. How do you control for biases?
+•	Bias control techniques:
+    1.	Randomization: Ensures groups are comparable.
+    2.	Blinding: Reduces measurement and participant biases.
+    3.	Matching: Matches participants on key variables to control confounders.
+    4.	Standardized protocols: Minimizes variability in data collection.
+    5.	Statistical adjustments: Use regression or propensity score matching to adjust for biases.
+________________________________________
+5. What are confounding variables?
+Confounding variables are extraneous factors that influence both the independent and dependent variables, creating a spurious association.
+  •	Example: In studying smoking and lung cancer, age may be a confounder if older individuals are both more likely to smoke and develop cancer.
+  •	Control methods:
+      o	Randomization.
+      o	Stratification or subgroup analysis.
+      o	Including confounders in statistical models.
+________________________________________
+6. What is A/B testing?
+A/B testing is a controlled experiment comparing two versions of a variable (A: control, B: treatment) to determine which performs better.
+  •	Steps:
+      1.	Define a clear hypothesis.
+      2.	Randomly assign participants to groups.
+      3.	Measure the outcome of interest (e.g., conversion rate).
+      4.	Perform statistical analysis to evaluate significance.
+  •	Common in user experience (UX) and marketing optimization.
+________________________________________
+7. What are confidence intervals?
+Confidence intervals (CIs) provide a range of values that likely contain the true population parameter with a given level of confidence (e.g., 95% CI).
+  •	Formula: [point estimate ± margin of error]
+  •	Importance:
+      o	Offers insight into the precision of the estimate.
+      o	Wider intervals indicate greater uncertainty; narrower intervals suggest higher precision.
